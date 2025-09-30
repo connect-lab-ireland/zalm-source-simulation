@@ -1,8 +1,12 @@
-@misc{Horgan2025,
-  author = {Horgan, J.},
-  title = {ZALM Source Simulation},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/connect-lab-ireland/zalm-source-simulation}}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Horgan"
+  given-names: "Jerry"
+  orcid: "https://orcid.org/0000-0001-5783-6077"
+title: "ZALM Source Simulation"
+version: 1.0.0
+#doi: 10.5281/zenodo.1234
+date-released: 2025-09-30
+url: "https://github.com/connect-lab-ireland/zalm-source-simulation"
+
