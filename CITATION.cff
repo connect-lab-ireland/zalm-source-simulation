@@ -1,1 +1,9 @@
-
+@misc{Horgan2025,
+  author = {Horgan, J.},
+  title = {ZALM Source Simulation},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/charlespwd/project-title}},
+  commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+}
