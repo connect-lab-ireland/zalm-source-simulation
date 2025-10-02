@@ -1,3 +1,9 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# File: system_setup.py
+# Jerry Horgan, 2025
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from utils import create_processor
 from netsquid.nodes import Node, Connection, Network
 from netsquid.qubits import QFormalism
