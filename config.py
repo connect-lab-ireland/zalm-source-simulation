@@ -34,7 +34,7 @@ HOM_VISIBILITY_AT_MAX = False
 SPDC_PUMP_WAVELENGTH_NM = 775.0
 
 # Degeneracy bandwidth FWHM in nanometers.
-SPDC_DEGENERACY_BANDWIDTH_FWHM_NM = 1.0 # 5.0
+SPDC_DEGENERACY_BANDWIDTH_FWHM_NM = 5.0
 
 # Defines how idler frequencies are determined relative to signal frequencies.
 SPDC_MODE = 'DICHROIC'  # 'DICHROIC' or 'PBS'
@@ -72,7 +72,7 @@ PBS_EXTINCTION_RATIO = 0.001
 # Choose detector type for the Bell State Measurement station.
 # 'STANDARD': Standard single-photon detectors (cannot distinguish |Φ> states).
 # 'PNR': Photon-Number-Resolving detectors (can distinguish all 4 Bell states).
-DETECTOR_TYPE = 'PNR'  # Options: 'STANDARD', 'PNR'
+DETECTOR_TYPE = 'STANDARD'  # Options: 'STANDARD', 'PNR'
 
 # Efficiency of the Single-Photon Detectors (SPDs).
 # Reference: State-of-the-art SNSPDs (Superconducting Nanowire Single-Photon Detectors)
@@ -89,7 +89,7 @@ PHOTON_FWHM_GHZ = 30.0
 # --- Temporal Properties ---
 # The temporal jitter in photon arrival times at the beam splitter.
 # This value is the standard deviation of a Gaussian distribution.
-TEMPORAL_JITTER_STDEV_PS = 20.0 #5.0
+TEMPORAL_JITTER_STDEV_PS = 0.0
 
 # =============================================================================
 #  QUANTUM PROCESSOR AND NOISE PARAMETERS
@@ -122,7 +122,7 @@ PLOT_CHANNEL_SPAN = 10e-5
 # -----------------------------------------------------------------------------
 # Distance between source and first nodes
 # -----------------------------------------------------------------------------
-INTERNODE_LENGTH = 5 # km
+INTERNODE_LENGTH = 1e-5 # km
 # --- Define physical constants ---
 SPEED_OF_LIGHT_IN_VACUUM = 299792458.0  # m/s
 REFRACTIVE_INDEX_OF_FIBER = 1.468      # For standard SMF-28 fiber at 1550 nm

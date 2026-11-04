@@ -1,0 +1,11 @@
+{
+    "configuration_name": 18,
+    "num_trials": 10000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.7489022371488847,
+            "std_dev": 0.13156008665815186
+        },
+        "avg_photon_number": 0.006
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "configuration_name": "DM & STD",
+    "num_trials": 10000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8175160886753094,
+            "std_dev": 0.1388682374264318
+        },
+        "avg_photon_number": 0.0142
+    }
+}

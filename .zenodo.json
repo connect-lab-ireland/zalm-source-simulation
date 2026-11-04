@@ -1,0 +1,26 @@
+{
+  "title": "ZALM Source Simulation",
+  "upload_type": "software",
+  "description": "Discrete-event NetSquid simulation of a Zero-Added-Loss Multiplexing (ZALM) entangled-photon source, with the code, configuration and result data behind the figures of Horgan et al., Advanced Quantum Technologies (2026), doi:10.1002/qute.202500810. Runs standalone (NetSquid only) or as a QSI component.",
+  "creators": [
+    {
+      "name": "Horgan, Jerry",
+      "orcid": "0000-0001-5783-6077",
+      "affiliation": "CONNECT Centre, Trinity College Dublin"
+    }
+  ],
+  "keywords": ["quantum networks", "entanglement distribution", "ZALM", "SPDC", "NetSquid"],
+  "related_identifiers": [
+    {
+      "identifier": "10.1002/qute.202500810",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://github.com/connect-lab-ireland/zalm-source-simulation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "configuration_name": "PBS & STD",
+    "num_trials": 2000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8240592153878217,
+            "std_dev": 0.14233857646184514
+        },
+        "avg_photon_number": 0.0105
+    }
+}
