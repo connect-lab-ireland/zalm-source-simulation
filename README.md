@@ -1,5 +1,8 @@
 # ZALM Source Simulation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23966133.svg)](https://doi.org/10.5281/zenodo.23966133)
+[![Paper](https://img.shields.io/badge/paper-10.1002%2Fqute.202500810-blue)](https://doi.org/10.1002/qute.202500810)
+
 Discrete-event simulation of a **Zero-Added-Loss Multiplexing (ZALM)** entangled-photon
 source, built on [NetSquid](https://netsquid.org). This is the code and data behind:
 
@@ -259,7 +262,13 @@ must be set in the file, not with `--set`.
 
 ## Citation
 
-If you use this code, please cite the paper above and this repository (see `CITATION.cff`).
+If you use this code, please cite the paper above and the software:
+
+> J. Horgan, *ZALM Source Simulation* (software), Zenodo, doi:[10.5281/zenodo.23966133](https://doi.org/10.5281/zenodo.23966133)
+
+That DOI covers all versions and always resolves to the latest one. To cite the exact version
+you used, take its own DOI from the Zenodo record. GitHub's **"Cite this repository"** button
+(generated from `CITATION.cff`) gives both entries in BibTeX and APA.
 
 ## License
 
