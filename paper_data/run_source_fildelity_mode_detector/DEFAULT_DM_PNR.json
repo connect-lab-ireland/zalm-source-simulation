@@ -1,0 +1,11 @@
+{
+    "configuration_name": "DM & PNR",
+    "num_trials": 10000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8230405391340447,
+            "std_dev": 0.14283044294924083
+        },
+        "avg_photon_number": 0.0254
+    }
+}

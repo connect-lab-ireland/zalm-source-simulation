@@ -1,0 +1,11 @@
+{
+    "configuration_name": "PBS & PNR",
+    "num_trials": 10000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8139967195247457,
+            "std_dev": 0.13243108320265073
+        },
+        "avg_photon_number": 0.0103
+    }
+}

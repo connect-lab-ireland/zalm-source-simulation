@@ -1,0 +1,12 @@
+# Standalone mode (NetSquid only).
+# NetSquid is not on PyPI: it needs a free account from https://netsquid.org
+# and is installed with
+#   pip install --extra-index-url https://<user>:<password>@pypi.netsquid.org netsquid==1.1.8
+# Tested with Python 3.12 on macOS (arm64) and Ubuntu 24.04 (x86_64).
+netsquid==1.1.8
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+statsmodels>=0.14
+tqdm>=4.66

@@ -1,0 +1,11 @@
+{
+    "configuration_name": "REALISTIC_PBS_FWHM_5",
+    "num_trials": 1000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8448560977377674,
+            "std_dev": 0.15452891913178665
+        },
+        "avg_photon_number": 0.012
+    }
+}

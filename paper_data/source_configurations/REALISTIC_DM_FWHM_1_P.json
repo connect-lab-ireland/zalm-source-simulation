@@ -1,0 +1,11 @@
+{
+    "configuration_name": "REALISTIC_DM_FWHM_1_P",
+    "num_trials": 1000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8293940639678482,
+            "std_dev": 0.1363301554961481
+        },
+        "avg_photon_number": 0.111
+    }
+}

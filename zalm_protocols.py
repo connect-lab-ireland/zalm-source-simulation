@@ -707,7 +707,12 @@ class BeamSplitterProtocol(NodeProtocol):
         # Applying any post entanglement depolarisation - may remove entanglement
         # Calculating HOM Visibility
         delta_f_ghz = abs(q1.wavelength - q2.wavelength)/1e9 # Convert from Hz to GHz
-        delta_t_ps = 0.0 # could be a random number to introduce jitter - need to load from config file
+        #delta_t_ps = 0.0 # could be a random number to introduce jitter - need to load from config file
+        # Calculate the jitter differential between both incoming photons.
+        jitter_sigma_ps = config.TEMPORAL_JITTER_STDEV_PS
+        jitter_a = np.random.normal(0, jitter_sigma_ps)
+        jitter_b = np.random.normal(0, jitter_sigma_ps)
+        delta_t_ps = abs(jitter_a - jitter_b)
 
         if not config.HOM_VISIBILITY_AT_MAX:
             visibility = calculate_visibility(delta_f_ghz, delta_t_ps)

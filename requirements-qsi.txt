@@ -1,0 +1,3 @@
+# QSI mode = standalone requirements + the QSI interface used for the paper.
+-r requirements.txt
+qsi @ git+https://github.com/tqsd/special_issue_quantum.git@5931b967e2fa4dbc28201c9480c02554e4a9f81b

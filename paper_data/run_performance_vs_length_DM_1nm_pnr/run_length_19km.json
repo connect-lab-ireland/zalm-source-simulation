@@ -1,0 +1,11 @@
+{
+    "configuration_name": "run_length_19km",
+    "num_trials": 2000,
+    "metrics": {
+        "fidelity": {
+            "mean": 0.8695401843856427,
+            "std_dev": 0.11586855785155604
+        },
+        "avg_photon_number": 0.015
+    }
+}
