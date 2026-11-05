@@ -266,9 +266,7 @@ If you use this code, please cite the paper above and the software:
 
 > J. Horgan, *ZALM Source Simulation* (software), Zenodo, doi:[10.5281/zenodo.23966133](https://doi.org/10.5281/zenodo.23966133)
 
-That DOI covers all versions and always resolves to the latest one. To cite the exact version
-you used, take its own DOI from the Zenodo record. GitHub's **"Cite this repository"** button
-(generated from `CITATION.cff`) gives both entries in BibTeX and APA.
+GitHub's **"Cite this repository"** button (generated from `CITATION.cff`) gives both entries in BibTeX and APA.
 
 ## License
 
